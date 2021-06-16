@@ -26,3 +26,11 @@ func getMovieSelectionController() -> SelectionViewController<MultipleMoviesComm
 Seperate appDelegate code for configue dependecies and setup views on different commands.
 This fix massive appDelegate proplem and make it dosn't violate SRP(Single Responsibilty Principle).
 Also every acion or setup or configuration is stand alone now so we can test it easily
+
+CODE SAMPLE
+``` 
+StartupCommandsBuilder()
+            .setKeyWindow(window)
+            .build()
+            .forEach { $0.execute() }
+```
