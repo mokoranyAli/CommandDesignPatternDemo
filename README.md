@@ -1,16 +1,16 @@
-#CommandDesignPatternDemo
+#CommandDesignPatternDemo#
 
 This is demo implementation on command pattern in two examples 
 
 
-**First Example in SelectionViewController
+#First Example in SelectionViewController#
 
 Using a single component which is UITableview to apply diffrent kind of actions
 Like passing diffrent lists and apply single and multiple selections in tableview 
 Everything using the same component and make it based on Command
 
 
-**Second Example in AppDelegate - array of commands to be executed
+#Second Example in AppDelegate - array of commands to be executed#
 
 Seperate appDelegate code for configue dependecies and setup views on different commands.
 This fix massive appDelegate proplem and make it dosn't violate SRP(Single Responsibilty Principle).
