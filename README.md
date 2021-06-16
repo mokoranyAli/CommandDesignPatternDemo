@@ -9,7 +9,7 @@ Like passing diffrent lists and apply single and multiple selections in tablevie
 Everything using the same component and make it based on Command
 
 code sample
-``` 
+```swift 
 func getMovieSelectionController() -> SelectionViewController<MultipleMoviesCommand> {
         let selectionViewController = SelectionViewController(command: MultipleMoviesCommand(), onEndEditing: didReceiveUserResult)
         selectionViewController.onDismissCallback = {
@@ -28,7 +28,7 @@ This fix massive appDelegate proplem and make it dosn't violate SRP(Single Respo
 Also every acion or setup or configuration is stand alone now so we can test it easily
 
 Code sample in AppDelegate
-``` 
+```swift
 StartupCommandsBuilder()
             .setKeyWindow(window)
             .build()
