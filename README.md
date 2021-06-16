@@ -8,7 +8,7 @@ Using a single component which is UITableview to apply diffrent kind of actions
 Like passing diffrent lists and apply single and multiple selections in tableview 
 Everything using the same component and make it based on Command
 
-### code sample
+### code sample in SelectionViewController
 ```swift 
 func getMovieSelectionController() -> SelectionViewController<MultipleMoviesCommand> {
         let selectionViewController = SelectionViewController(command: MultipleMoviesCommand(), onEndEditing: didReceiveUserResult)
