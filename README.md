@@ -16,7 +16,7 @@ func getMovieSelectionController() -> SelectionViewController<MultipleMoviesComm
             $0.dismiss(animated: true, completion: nil)
         }
         return selectionViewController
-    }````
+    }```
     
     
 
