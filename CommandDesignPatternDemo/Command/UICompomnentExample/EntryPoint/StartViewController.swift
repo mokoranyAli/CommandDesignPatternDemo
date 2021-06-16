@@ -65,14 +65,14 @@ private extension StartViewController {
     }
     
     /// Given Mutliple User Selection
-       ///
-       func getMovieSelectionController() -> SelectionViewController<MultipleMoviesCommand> {
-           let selectionViewController = SelectionViewController(command: MultipleMoviesCommand(), onEndEditing: didReceiveUserResult)
-           selectionViewController.onDismissCallback = {
-               $0.dismiss(animated: true, completion: nil)
-           }
-           return selectionViewController
-       }
+    ///
+    func getMovieSelectionController() -> SelectionViewController<MultipleMoviesCommand> {
+        let selectionViewController = SelectionViewController(command: MultipleMoviesCommand(), onEndEditing: didReceiveUserResult)
+        selectionViewController.onDismissCallback = {
+            $0.dismiss(animated: true, completion: nil)
+        }
+        return selectionViewController
+    }
     
     
     // MARK: - Values
