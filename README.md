@@ -9,6 +9,17 @@ Like passing diffrent lists and apply single and multiple selections in tablevie
 Everything using the same component and make it based on Command
 
 
+` CODE SAMPLE
+func getMovieSelectionController() -> SelectionViewController<MultipleMoviesCommand> {
+        let selectionViewController = SelectionViewController(command: MultipleMoviesCommand(), onEndEditing: didReceiveUserResult)
+        selectionViewController.onDismissCallback = {
+            $0.dismiss(animated: true, completion: nil)
+        }
+        return selectionViewController
+    }`
+    
+    
+
  # Second Example in AppDelegate - array of commands to be executed 
 
 Seperate appDelegate code for configue dependecies and setup views on different commands.
