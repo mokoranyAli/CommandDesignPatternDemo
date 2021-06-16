@@ -36,6 +36,8 @@ struct SingleNewsCommand: SelectionCommand {
     ///
     let allowsMultipleSelection: Bool = false
     
+    // MARK: - Init
+    
     init(action: NewsReceiver = NewsReceiver()) {
         self.newsAction = action
         self.title = action.title

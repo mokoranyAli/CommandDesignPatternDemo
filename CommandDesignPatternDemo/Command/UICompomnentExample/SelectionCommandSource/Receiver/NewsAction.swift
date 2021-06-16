@@ -26,7 +26,7 @@ struct NewsReceiver {
     
     /// Subtitle for navigation in selection tableview
     ///
-    var subtitle: String? = nil
+    var subtitle: String? = "one value will be selcted"
           
     // MARK: - Handlers
     

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2540421267A79EC00C20FCD /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2540420267A79EC00C20FCD /* Movie.swift */; };
+		A2540423267A7B9600C20FCD /* MovieReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2540422267A7B9600C20FCD /* MovieReceiver.swift */; };
+		A2540425267A7E2C00C20FCD /* MultipleMoviesCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2540424267A7E2C00C20FCD /* MultipleMoviesCommand.swift */; };
+		A254043A267A82A200C20FCD /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2540439267A82A200C20FCD /* Command.swift */; };
+		A254043C267A82C100C20FCD /* StartupCommandsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A254043B267A82C100C20FCD /* StartupCommandsBuilder.swift */; };
+		A254043E267A840500C20FCD /* InitializeThirdPartiesCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A254043D267A840500C20FCD /* InitializeThirdPartiesCommand.swift */; };
+		A2540440267A84E300C20FCD /* InitializeAppearanceCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A254043F267A84E300C20FCD /* InitializeAppearanceCommand.swift */; };
+		A2540442267A85C400C20FCD /* RegisterToRemoteNotificationsCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2540441267A85C400C20FCD /* RegisterToRemoteNotificationsCommand.swift */; };
+		A2540444267A865500C20FCD /* InitialViewControllerCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2540443267A865500C20FCD /* InitialViewControllerCommand.swift */; };
 		A2E26151267927FC0056FA24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E26150267927FC0056FA24 /* AppDelegate.swift */; };
 		A2E2615D267928010056FA24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2E2615C267928010056FA24 /* Assets.xcassets */; };
 		A2E26160267928010056FA24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E2615E267928010056FA24 /* LaunchScreen.storyboard */; };
@@ -31,14 +40,23 @@
 		A2E2619926793A770056FA24 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E2619826793A770056FA24 /* NetworkManager.swift */; };
 		A2E2619B26793C180056FA24 /* URLSession+Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E2619A26793C180056FA24 /* URLSession+Task.swift */; };
 		A2E2619D26793EA00056FA24 /* NewsAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E2619C26793EA00056FA24 /* NewsAction.swift */; };
-		A2E261A4267943F90056FA24 /* NewsCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E261A3267943F90056FA24 /* NewsCommand.swift */; };
+		A2E261A4267943F90056FA24 /* SingleNewsCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E261A3267943F90056FA24 /* SingleNewsCommand.swift */; };
 		A2E261A8267946630056FA24 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E261A6267946630056FA24 /* StartViewController.swift */; };
 		A2E261A9267946630056FA24 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2E261A7267946630056FA24 /* StartViewController.xib */; };
 		A2E261AC267955560056FA24 /* UserReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E261AB267955560056FA24 /* UserReceiver.swift */; };
-		A2E261AE2679563C0056FA24 /* UserCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E261AD2679563C0056FA24 /* UserCommand.swift */; };
+		A2E261AE2679563C0056FA24 /* MultipleUserCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E261AD2679563C0056FA24 /* MultipleUserCommand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2540420267A79EC00C20FCD /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		A2540422267A7B9600C20FCD /* MovieReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieReceiver.swift; sourceTree = "<group>"; };
+		A2540424267A7E2C00C20FCD /* MultipleMoviesCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleMoviesCommand.swift; sourceTree = "<group>"; };
+		A2540439267A82A200C20FCD /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		A254043B267A82C100C20FCD /* StartupCommandsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupCommandsBuilder.swift; sourceTree = "<group>"; };
+		A254043D267A840500C20FCD /* InitializeThirdPartiesCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializeThirdPartiesCommand.swift; sourceTree = "<group>"; };
+		A254043F267A84E300C20FCD /* InitializeAppearanceCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializeAppearanceCommand.swift; sourceTree = "<group>"; };
+		A2540441267A85C400C20FCD /* RegisterToRemoteNotificationsCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterToRemoteNotificationsCommand.swift; sourceTree = "<group>"; };
+		A2540443267A865500C20FCD /* InitialViewControllerCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewControllerCommand.swift; sourceTree = "<group>"; };
 		A2E2614D267927FC0056FA24 /* CommandDesignPatternDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommandDesignPatternDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E26150267927FC0056FA24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2E2615C267928010056FA24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,11 +83,11 @@
 		A2E2619826793A770056FA24 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		A2E2619A26793C180056FA24 /* URLSession+Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Task.swift"; sourceTree = "<group>"; };
 		A2E2619C26793EA00056FA24 /* NewsAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAction.swift; sourceTree = "<group>"; };
-		A2E261A3267943F90056FA24 /* NewsCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCommand.swift; sourceTree = "<group>"; };
+		A2E261A3267943F90056FA24 /* SingleNewsCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNewsCommand.swift; sourceTree = "<group>"; };
 		A2E261A6267946630056FA24 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		A2E261A7267946630056FA24 /* StartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
 		A2E261AB267955560056FA24 /* UserReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserReceiver.swift; sourceTree = "<group>"; };
-		A2E261AD2679563C0056FA24 /* UserCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCommand.swift; sourceTree = "<group>"; };
+		A2E261AD2679563C0056FA24 /* MultipleUserCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleUserCommand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +101,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2540426267A819400C20FCD /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				A2540428267A81AF00C20FCD /* AppDelegateExample */,
+				A2540427267A819E00C20FCD /* UICompomnentExample */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		A2540427267A819E00C20FCD /* UICompomnentExample */ = {
+			isa = PBXGroup;
+			children = (
+				A2E261A52679463F0056FA24 /* EntryPoint */,
+				A2E26167267928490056FA24 /* SelectionCommandSource */,
+			);
+			path = UICompomnentExample;
+			sourceTree = "<group>";
+		};
+		A2540428267A81AF00C20FCD /* AppDelegateExample */ = {
+			isa = PBXGroup;
+			children = (
+				A2540445267A889800C20FCD /* Builder */,
+				A2540438267A826D00C20FCD /* Command */,
+			);
+			path = AppDelegateExample;
+			sourceTree = "<group>";
+		};
+		A2540438267A826D00C20FCD /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				A2540447267A892200C20FCD /* Concrete */,
+				A2540446267A88A300C20FCD /* Abstract */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		A2540445267A889800C20FCD /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				A254043B267A82C100C20FCD /* StartupCommandsBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		A2540446267A88A300C20FCD /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				A2540439267A82A200C20FCD /* Command.swift */,
+			);
+			path = Abstract;
+			sourceTree = "<group>";
+		};
+		A2540447267A892200C20FCD /* Concrete */ = {
+			isa = PBXGroup;
+			children = (
+				A254043D267A840500C20FCD /* InitializeThirdPartiesCommand.swift */,
+				A254043F267A84E300C20FCD /* InitializeAppearanceCommand.swift */,
+				A2540441267A85C400C20FCD /* RegisterToRemoteNotificationsCommand.swift */,
+				A2540443267A865500C20FCD /* InitialViewControllerCommand.swift */,
+			);
+			path = Concrete;
+			sourceTree = "<group>";
+		};
 		A2E26144267927FC0056FA24 = {
 			isa = PBXGroup;
 			children = (
@@ -102,13 +183,12 @@
 		A2E2614F267927FC0056FA24 /* CommandDesignPatternDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A2E261A52679463F0056FA24 /* EntryPoint */,
+				A2540426267A819400C20FCD /* Command */,
 				A2E2619726793A650056FA24 /* NetworkLayer */,
 				A2E261922679387A0056FA24 /* Model */,
 				A2E261832679305B0056FA24 /* Tools */,
 				A2E2617E26792FAE0056FA24 /* Extensions */,
 				A2E2617526792C480056FA24 /* CustomView */,
-				A2E26167267928490056FA24 /* SelectionCommandSource */,
 				A2E26150267927FC0056FA24 /* AppDelegate.swift */,
 				A2E2615C267928010056FA24 /* Assets.xcassets */,
 				A2E2615E267928010056FA24 /* LaunchScreen.storyboard */,
@@ -208,6 +288,7 @@
 			children = (
 				A2E2619C26793EA00056FA24 /* NewsAction.swift */,
 				A2E261AB267955560056FA24 /* UserReceiver.swift */,
+				A2540422267A7B9600C20FCD /* MovieReceiver.swift */,
 			);
 			path = Receiver;
 			sourceTree = "<group>";
@@ -217,6 +298,7 @@
 			children = (
 				A2E26193267938AD0056FA24 /* User.swift */,
 				A2E2619526793A330056FA24 /* News.swift */,
+				A2540420267A79EC00C20FCD /* Movie.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -249,8 +331,9 @@
 		A2E261A2267943E40056FA24 /* ConcreteCommands */ = {
 			isa = PBXGroup;
 			children = (
-				A2E261A3267943F90056FA24 /* NewsCommand.swift */,
-				A2E261AD2679563C0056FA24 /* UserCommand.swift */,
+				A2E261A3267943F90056FA24 /* SingleNewsCommand.swift */,
+				A2E261AD2679563C0056FA24 /* MultipleUserCommand.swift */,
+				A2540424267A7E2C00C20FCD /* MultipleMoviesCommand.swift */,
 			);
 			path = ConcreteCommands;
 			sourceTree = "<group>";
@@ -340,27 +423,36 @@
 				A2E2619926793A770056FA24 /* NetworkManager.swift in Sources */,
 				A2E261902679361A0056FA24 /* UIViewController+Alert.swift in Sources */,
 				A2E2617326792B010056FA24 /* SelectionViewController.swift in Sources */,
+				A2540423267A7B9600C20FCD /* MovieReceiver.swift in Sources */,
 				A2E2617026792A7F0056FA24 /* CommandSelectionValue.swift in Sources */,
+				A2540421267A79EC00C20FCD /* Movie.swift in Sources */,
 				A2E2616C267928E60056FA24 /* SelectionCommand.swift in Sources */,
+				A2540425267A7E2C00C20FCD /* MultipleMoviesCommand.swift in Sources */,
 				A2E261A8267946630056FA24 /* StartViewController.swift in Sources */,
 				A2E261AC267955560056FA24 /* UserReceiver.swift in Sources */,
 				A2E26194267938AD0056FA24 /* User.swift in Sources */,
+				A254043A267A82A200C20FCD /* Command.swift in Sources */,
 				A2E2618A267932500056FA24 /* NSObject+Helpers.swift in Sources */,
 				A2E26185267930660056FA24 /* State.swift in Sources */,
 				A2E2616E267929780056FA24 /* CommandRepresentable.swift in Sources */,
 				A2E2618E267933390056FA24 /* UITableView+Handlers.swift in Sources */,
-				A2E261A4267943F90056FA24 /* NewsCommand.swift in Sources */,
+				A2E261A4267943F90056FA24 /* SingleNewsCommand.swift in Sources */,
 				A2E2619D26793EA00056FA24 /* NewsAction.swift in Sources */,
+				A2540442267A85C400C20FCD /* RegisterToRemoteNotificationsCommand.swift in Sources */,
 				A2E261822679300B0056FA24 /* UIView+Helpers.swift in Sources */,
 				A2E2618C267932C90056FA24 /* NoResultError.swift in Sources */,
 				A2E2617726792C620056FA24 /* ActivityIndicator.swift in Sources */,
 				A2E2618026792FBD0056FA24 /* Optional+Helpers.swift in Sources */,
-				A2E261AE2679563C0056FA24 /* UserCommand.swift in Sources */,
+				A2E261AE2679563C0056FA24 /* MultipleUserCommand.swift in Sources */,
 				A2E2617B26792D280056FA24 /* NavigationTitleView.swift in Sources */,
 				A2E26151267927FC0056FA24 /* AppDelegate.swift in Sources */,
 				A2E2619626793A330056FA24 /* News.swift in Sources */,
 				A2E2619B26793C180056FA24 /* URLSession+Task.swift in Sources */,
 				A2E26188267932060056FA24 /* SelectableTableViewCell.swift in Sources */,
+				A254043E267A840500C20FCD /* InitializeThirdPartiesCommand.swift in Sources */,
+				A2540444267A865500C20FCD /* InitialViewControllerCommand.swift in Sources */,
+				A2540440267A84E300C20FCD /* InitializeAppearanceCommand.swift in Sources */,
+				A254043C267A82C100C20FCD /* StartupCommandsBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
