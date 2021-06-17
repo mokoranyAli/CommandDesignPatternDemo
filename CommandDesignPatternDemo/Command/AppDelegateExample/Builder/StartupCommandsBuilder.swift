@@ -11,7 +11,7 @@ import UIKit
 // MARK: - StartupCommandsBuilder
 //
 /// This is builder for giving us a different types of actions to be implemented in `AppDelegate`
-///  This is because ``we don't need to avoid SRP (Single Responsibility Principle) ``
+///  This is because ``we don't need to violate SRP (Single Responsibility Principle) ``
 ///  And reduce code in AppDelegate
 ///
 /// - Example
