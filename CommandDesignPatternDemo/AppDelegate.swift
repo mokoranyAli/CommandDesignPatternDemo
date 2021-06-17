@@ -31,7 +31,7 @@ private extension AppDelegate {
     func setup() {
         // Now we can add any code of dependencies and app delegate not massive
         
-        /// ``` Check thid link if you wanna get more
+        /// ``` Check this link if you wanna get more
         // https://www.vadimbulavin.com/refactoring-massive-app-delegate/
         
         StartupCommandsBuilder()
